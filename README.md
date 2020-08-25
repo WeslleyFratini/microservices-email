@@ -1,4 +1,4 @@
-# Mail Service MVP
+# Mail Service
 
 - O usuário importa uma lista de destinatários de um CSV e os coloca em uma tag
 - O usuário deve poder visualizar os inscritos de uma tag específica
