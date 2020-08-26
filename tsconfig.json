@@ -6,6 +6,12 @@
       "resolveJsonModule": true,
       "esModuleInterop": true,
       "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true
-    }
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": true,
+      "paths":{
+      "@services/*":["services/*"],
+      "@schemas/*":["schemas/*"]
+      }
+    },
+    "include": ["src", "__tests__", "src/services/__tests__/functional/example.spec.ts"],
   }

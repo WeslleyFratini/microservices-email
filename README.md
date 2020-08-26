@@ -18,3 +18,10 @@
 - Utilizar Express
 - Utilizar serviço de mensagem (Redis)
 
+# Regra de Negócio
+
+- Na importação, se a tag não existir ela deve ser criada
+- Na importação, se o usuário não existri, só vamos veicula-lo com a tag
+- Na importação deve permitir múltiplas tags
+
+
